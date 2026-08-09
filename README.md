@@ -1,5 +1,7 @@
 # Encoder-only モデルのファインチューニング & Unity 実機推論デモ
 
+[English](README.en.md)
+
 日本語のエンコーダのみモデル（[`sbintuitions/modernbert-ja-130m`](https://huggingface.co/sbintuitions/modernbert-ja-130m)）を
 **多クラス感情分類**にファインチューニングし、ONNX へ書き出して **Unity（AI Inference Engine / Sentis）上でオンデバイス推論する**
 までを一気通貫で示すサンプルリポジトリです。
