@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# uv / venv
+.venv/
+
+# 生成物(データ・学習済みモデル)
+data/
+outputs/
+
+# HuggingFace キャッシュ(明示的にプロジェクト内へ置いた場合)
+.hf_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
