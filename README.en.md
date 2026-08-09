@@ -17,7 +17,7 @@ This repository consists of two projects.
 
 | Directory | Description |
 |---|---|
-| [`PythonProject/`](PythonProject/README.md) | Fine-tuning, evaluation, and ONNX export for emotion classification on the WRIME dataset (managed with uv) |
+| [`PythonProject/`](PythonProject/README.en.md) | Fine-tuning, evaluation, and ONNX export for emotion classification on the WRIME dataset (managed with uv) |
 | `UnityProject/` | Demo app that loads the exported ONNX model and runs text classification in the Unity Editor / on-device |
 
 ```mermaid
@@ -38,8 +38,8 @@ trust) plus neutral, for a **9-class classification** task.
 
 ### 1. Train the model and export to ONNX (Python)
 
-For detailed steps, requirements, and troubleshooting, see [`PythonProject/README.md`](PythonProject/README.md)
-(Japanese). Summary:
+For detailed steps, requirements, and troubleshooting, see [`PythonProject/README.en.md`](PythonProject/README.en.md).
+Summary:
 
 ```powershell
 cd PythonProject

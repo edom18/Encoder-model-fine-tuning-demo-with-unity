@@ -1,4 +1,6 @@
-# encoder-model-fine-tuning
+# エンコーダモデルファインチューニング
+
+[English](README.en.md)
 
 エンコーダのみモデル(日本語 BERT 系)を **多クラス感情分類**にファインチューニングするためのサンプル実装です。
 
